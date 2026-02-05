@@ -18,11 +18,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className="bg-gray-900 text-white font-serif overflow-x-hidden">
-        <Navbar/>
         <div className="">
-        {children}
+          {children}
         </div>
-        </body>
+      </body>
     </html>
   )
 }
